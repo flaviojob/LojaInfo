@@ -9,7 +9,7 @@ namespace LojaInfo.Models.Repositorio
 {
        public class CRUDPedido : Conexao
     {
-        public string Cadastrar (Pedido pedido){
+        public string Cadastro (Pedido pedido){
             
             string mensagem = "";
             try{
